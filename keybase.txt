@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/nhaunold
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://haunold.me
+  * I am nhaunold (https://keybase.io/nhaunold) on keybase.
+  * I have a public key with fingerprint 2288 078F 01EB 354C D1BA  F5F5 F898 15F8 C6BC 5536
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "2288078f01eb354cd1baf5f5f89815f8c6bc5536",
+            "host": "keybase.io",
+            "key_id": "f89815f8c6bc5536",
+            "kid": "0101800239e04345b8e9e284a7009b878e7aa82e0c58a51cf81e4a606591d45324bf0a",
+            "uid": "5afc7cab4d228ff69b495bcf2ca2ab00",
+            "username": "nhaunold"
+        },
+        "service": {
+            "hostname": "haunold.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1421445136,
+    "expire_in": 157680000,
+    "prev": "955a849803b0ed6874d40c3e698864491965e92206f4a37b6c42fdb3e89119ed",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkntMFFcUxpdXQRCKJGBrqdgxWgoLzHvubGhBaxADBsqjtFRd5nGHnSzMLDsL
+hUVEShuxNWBiRV4q2qix9Qn2IdCItSWwRmlqSmqR1PgiRslarEAs0M4Q+l9zk3tz
+vvs73z3n5O4N9TP5+sy0RM4M9OXTPlcvp/CmvIsNMdUIr4pViKUascOFQ5KVYuh0
+OGXFhVgQHAcAZYCEYpAnKFIQMZ6TKH0BFmD6LtC8QFEEjZgRm6oZGboNz2kwUVZ1
+TQ+ssqir/8PbFy5QDMUAiuIEC1GSICkeQBbigOQYFGV5wADIcBzAISpQgKMwQQIY
+JDkapSkWE0mKwEleQjndrnzBjuIkgRE4nhT1yiWJZnmSpXhBwgUO53gUNUANOhWu
+FOq0YuPKFbVERGrMiK5WyAI0RmB0skgsAol6YEYcTtWlCmqJobtcDouR5qpyGNyH
+kLcuOlh5WRH1IeoJFdCpyaqCWDCdFFyyYYmROEaSFEbQZgRWOmQntMoGQTG0PgcU
+NZ6BFbolS1EcIFmAEjwKRRowpEiiAgFpFgCaJFmMpSnI4jhKSyRHMDwtkLgk8gQE
+LIaxUESMnsoUFbEweplcsW6pycUK5yp3QqQmeLdvtL/Jx9f0QoCv8Q9MwUvC//sd
+joxwU4OnLLxmZuDsHXOz/5WQxpCH2AeZR2LnOvZZX29f9X7+phPHxmLmIBn6Yn6b
+ueho+/0f6k5dCNzynP3yJeVabETuxLsD12o7Yp/evb1SZcgr9xK8re6g1GX8+Mmo
+bw4H1K8ATU0nX5nenNV4qb85o6vw+6ikkYZa+8qPDmUX79g5PBSffH118sSQO+7z
+rtWhG5YWDCrv2DIKf416a226xdudeXBLQHdbXMmhvnrt6xunHrhsMV5uhUcLix96
+u25XWvq69Tcr/dxY1x9Pw3ZZz3nFVek9FY/RTvvE+ZYIZt+eXP54anOqZRDvH6tu
+gmcb3WnsaLUt8I3Tl8ZnHc+801rvYdfObYnT63Pi06qHm7u2d67NK/jzxqT7eajm
++eWrba1nikf8crLLcsZsnor6zocp2rOhJx9Ptm1dc3T6LnC/alleGvSme8k9e2Df
+X5btPeOJ/rc9F8oeiRvj9qQs8x/OX3o166dPf9z48sWE3G83SOr8re82F9n/0eJG
+S3cMqlkY99rQ8cpHX2Svy/gsEj5JuDk1O/9Je1RVUfBwnVqVNBmdFFAYEzDsSOvP
+3ht54k537q3M5GR6ZD8ocylTddRs7+h7EdFEFV5pzv97zf5p7/3z1sdbfbgjCZt+
+8wl7cL11pvznCW9PxLFmeKawoKP29zYl/fS5OfLyvG9p0NSBjoTlLb2emLyQfwE=
+=39a2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nhaunold
+
+==================================================================
+

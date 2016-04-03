@@ -1,0 +1,145 @@
+<!--
+Credits:
+* Icons by DefaultIcon
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <meta name="apple-itunes-app" content="app-id=665684889" />
+		<title>BucketList for iOS</title>
+        <style>
+			body { font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+			.wrapper { width: 640px; margin: auto; margin-bottom: 2em; }
+			.footer { margin-bottom: 1em; line-height: 18px; text-align: center; font-size: 10pt; color: #999; }
+            
+            .header {
+							padding-top: 0.6em;
+						}
+            
+            .header .logo {
+                float: left;
+            }
+            
+            .header .text {
+                float: left;
+            }
+            
+            .header .text h2 {
+                font-size: 28pt;
+                margin-left: 0.7em;
+                margin-top: 0.9em;
+            }
+            
+            .header .logo img {
+                width: 96px;
+            }
+
+			.wrapper > .device-iphone {
+				margin-top: 2em;
+			}
+
+			.wrapper > .device-iphone img.screenshot {
+				width: 223px;
+				position: absolute;
+				margin-top: 88px;
+				margin-left: 28px;
+			}
+
+			.wrapper > .device-iphone img.overlay {
+				width: 280px;
+				position: absolute;
+			}
+
+			.wrapper > .content {
+				margin-left: 300px;
+			}
+
+			.wrapper > .content > .headline {
+				padding-top: 2em;
+			}
+
+			.wrapper > .content > .headline > h2 {
+				font-size: 38pt;
+				text-shadow: 0 2px #000;
+				margin-top: 28px;
+				margin-left: 20px;
+				margin-bottom: 0px;
+				padding-bottom: 0px;
+			}
+
+			.wrapper > .content {
+				line-height: 22px;
+				font-size: 11pt;
+			}
+
+		</style>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="jquery.cycle.all.js"></script>
+		<script>
+			window.addEventListener("load", function(e) {
+				$('#slides').cycle({
+					fx: 'fade',
+					speed: 500,
+					timeout: 3000,
+					next: '#slides',
+					pause: 1,
+				});
+			}, false);
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="device-iphone">
+				<div id="slides" style="position: absolute;">
+					<img src="ss1.png" class="screenshot" />
+					<img src="ss2.png" class="screenshot" />
+					<img src="ss3.png" class="screenshot" />
+					<img src="ss4.png" class="screenshot" />
+				</div>
+				<img src="iphone5.png" class="overlay" />
+			</div>
+			<div class="content">
+                <div class="header">
+                    <div class="logo">
+                        <img src="app_logo.png" title="BucketList for iOS" alt="BucketList for iOS" />
+                    </div>
+                    <div class="text">
+                        <h2>BucketList</h2>
+                    </div>
+                    <br style="clear: both;" />
+                </div>
+                
+				<p>
+				Ever wanted to caption your own photos to make them look like the ones you saw on Tumblr, Facebook or Instagram?</p>
+                
+                <p>Well, with BucketList you can!</p>
+
+								<p>Oh, and did we mention it's <em>free</em>?</p>
+                <p>
+                <ul>
+                    <li>Instantly select the most recent photos right away.</li>
+                    <li>Caption your beautiful photos &amp; what they're about. (e.g. "visit San Francisco" — "2013 bucket list")</li>
+                    <li>Crop &amp; Scale photos to only reveal their best parts.</li>
+                    <li>Share your captioned photo on Tumblr, Instagram, Facebook, Twitter &amp; Imgur.</li>
+                    <li>Send via iMessage, MMS and Mail.</li>
+                    <li>Send your captioned photo as a postcard to friends &amp; family around the world.</li>
+                </ul>
+                </p>
+                
+                <p>UPGRADE TO THE FULL VERSION FOR $1.99 TO</p>
+                <p><ul>
+                    <li>Hide advertisements.</li>
+                    <li>Unlock many beautiful fonts.</li>
+                    <li>Remove the 'BucketList for iOS' watermark.</li>
+                    <li>Support the developer (which means: more awesome updates in the future!)</li>
+                </ul></p>
+                
+								<a href="https://itunes.apple.com/us/app/bucketlist-photo-caption-generator/id665684889?ls=1&mt=8"><img src="download_appstore.svg" title="Download on the App Store" alt="Download on the App Store" /></a>				
+			</div>
+		</div>
+        <div class="footer">
+            Copyright &copy; 2013 Nicolas Haunold.<br />Send feedback, bug reports, chocolate-covered strawberries, etc. to <a href="mailto:nicolas@haunold.me">nicolas@haunold.me</a>.
+        </div>
+	</body>
+</html>
