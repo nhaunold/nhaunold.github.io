@@ -19,7 +19,6 @@
       }
 
       h1 {
-        margin-top: 1em;
         padding-top: 1em;
       }
 
@@ -34,35 +33,53 @@
       strong > a {
         color: #158B9C;
       }
+
+      .wrapper {
+        padding-bottom: 1em;
+        padding-top: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+
+      .wrapper > img {
+        max-width: 30em;
+      }
+
+      .centered {
+        text-align: center;
+        display: block;
+      }
     </style>
-<script type="text/javascript">
+    <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-30045950-1']);
-  _gaq.push(['_trackPageview']);
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-30045950-1']);
+      _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
-</script>
+    </script>
 	</head>
 	<body>
 		<div class="wrapper">
       <h1>Hi, I'm Nicolas!</h1>
 
-      <p>My name is <strong>Nicolas Haunold</strong>. I'm a 22-year-old software engineer originally from Vienna, Austria working at <a href="https://airbnb.com/">Airbnb</a> in San Francisco, California.</p>
+      <img src="headshot17.jpg" alt="Nicolas Haunold" title="Nicolas Haunold" />
+      <section>
+        <p>My name is <strong>Nicolas Haunold</strong>. I'm a 22-year-old software engineer originally from Vienna, Austria working at <a href="https://airbnb.com/">Airbnb</a> in San Francisco, California.</p>
 
-      <p>I previously co-founded GoQuoty, spent two summers interning on the
-      Mobile team at Airbnb and was one of the first developers at CocoaNuts, a
-      small start-up that developed feature enhancements and usability tweaks
-      for "jailbroken" iOS devices.</p>
-
-      <p>I'm into all things tech, music, security, politics and, above all, food &amp; drink.</p>
-
-      <p><strong><a href="mailto:nicolas@haunold.me">Say hi!</a></strong> You can also find me on <a href="https://linkedin.com/in/nhaunold">LinkedIn</a>, <a href="https://github.com/nhaunold">GitHub</a> and <a href="https://angel.co/nhaunold">AngelList</a>.</p>
+        <p>I previously co-founded GoQuoty - a legal marketplace startup connecting attorneys with potential clients, spent two summers interning on the
+        Mobile team at Airbnb and was one of the first developers at CocoaNuts - a
+        small startup that developed feature enhancements and usability tweaks
+        for <em>jailbroken</em> iOS devices.</p>
+      </section>
+      <section class="centered">
+        <a href="mailto:nicolas@haunold.me">nicolas@haunold.me</a> &middot; <a href="https://linkedin.com/in/nhaunold">LinkedIn</a> &middot; <a href="https://angel.co/nhaunold">AngelList</a>
+      </section>
 		</div>
 	</body>
 </html>
