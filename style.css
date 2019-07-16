@@ -3,7 +3,7 @@
 :root {
   --color-primary: #352961;
   --color-secondary: #e6b2c6;
-  --color-text: #f6e5e5;
+  --color-tertiary: #f6e5e5;
 }
 
 body {
@@ -51,5 +51,5 @@ main {
 }
 
 p {
-  color: var(--color-text);
+  color: var(--color-tertiary);
 }
