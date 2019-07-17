@@ -13,6 +13,7 @@ body {
   background: var(--color-primary);
   display: flex;
   height: 100vh;
+  letter-spacing: 0.5pt;
 }
 
 a {
