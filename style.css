@@ -1,16 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
-
 :root {
-  --color-primary: #352961;
-  --color-secondary: #e6b2c6;
-  --color-tertiary: #f6e5e5;
+  --color-primary: #fff8e8;
+  --color-secondary: #f15025;
+  --color-tertiary: #6e6765;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", "Baskerville", serif;
-  font-size: 1em;
+  font-family: "Baskerville", serif;
+  font-size: 1.35em;
   line-height: 1.65em;
   background: var(--color-primary);
   display: flex;
@@ -21,12 +19,11 @@ a {
   color: var(--color-secondary);
   text-decoration: none;
   padding-bottom: 2px;
-  transition: all 300ms;
-  border-bottom: 1px solid rgba(230, 178, 198, 0);
+  border-bottom: 1px solid rgba(241, 80, 37, 0);
 }
 
 a:hover {
-  border-bottom: 1px solid rgba(230, 178, 198, 0.5);
+  border-bottom: 1px solid rgba(241, 80, 37, 0.5);
 }
 
 h1 {
