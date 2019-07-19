@@ -9,7 +9,7 @@ body {
   padding: 0;
   font-family: "Baskerville", serif;
   font-size: 1.35em;
-  line-height: 1.65em;
+  line-height: 1.45em;
   background: var(--color-primary);
   display: flex;
   height: 100vh;
