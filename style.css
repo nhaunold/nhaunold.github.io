@@ -1,15 +1,15 @@
 :root {
-  --color-primary: #fff8e8;
-  --color-secondary: #f15025;
-  --color-tertiary: #6e6765;
+  --color-primary: #fff;
+  --color-secondary: #d53140;
+  --color-tertiary: #343434;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Baskerville", serif;
-  font-size: 1.35em;
-  line-height: 1.65em;
+  font-size: 1em;
+  line-height: 1.5em;
   background: var(--color-primary);
   display: flex;
   height: 100vh;
@@ -20,11 +20,11 @@ a {
   color: var(--color-secondary);
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom: 1px solid rgba(241, 80, 37, 0);
+  border-bottom: none;
 }
 
 a:hover {
-  border-bottom: 1px solid rgba(241, 80, 37, 0.5);
+  border-bottom: 1px solid var(--color-secondary);
 }
 
 h1 {
