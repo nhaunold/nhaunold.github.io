@@ -1,19 +1,20 @@
 :root {
-  --color-primary: #fff;
-  --color-secondary: #d53140;
-  --color-tertiary: #343434;
+  --color-primary: #D3DDDC;
+  --color-secondary: #456355;
+  --color-tertiary: #766a5e;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Baskerville", serif;
-  font-size: 1em;
+  font-family: "Futura", sans-serif;
+  font-size: 0.8em;
   line-height: 1.5em;
   background: var(--color-primary);
   display: flex;
   height: 100vh;
-  letter-spacing: 0.5pt;
+  letter-spacing: 0.25px;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -24,28 +25,19 @@ a {
 }
 
 a:hover {
-  border-bottom: 1px solid var(--color-secondary);
-}
-
-h1 {
-  display: none;
+  background: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 h2 {
   color: var(--color-secondary);
+  letter-spacing: -0.75px;
 }
 
 main {
   width: 24em;
-  margin: auto 0;
+  margin: auto;
   padding: 1em 6em;
-}
-
-@media only screen and (max-width: 940px) {
-  main {
-    margin: auto;
-    padding: 1em 2em;
-  }
 }
 
 p {
